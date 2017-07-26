@@ -13,6 +13,9 @@ function Nav () {
       <li>
         <NavLink activeClassName='active' to='/popular'>Popular</NavLink>
       </li>
+      <li>
+      <NavLink activeClassName="hello"  to='/hello'>Hello</NavLink>
+      </li>
     </ul>
   )
 }
